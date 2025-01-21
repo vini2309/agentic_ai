@@ -6,10 +6,10 @@ This repository contains code and documentation for three exciting projects I wo
 
 ### 1. Financial AI Agent with Phidata
 - **Description**: A financial agent capable of analyzing stocks, fetching news, and providing recommendations.
-- **Technologies Used**: Phidata, YFinance, DugDugGo.
+- **Technologies Used**: Phidata, YFinance, DuckDuckGo.
 - **Features**:
   - Stock analysis using YFinance.
-  - Web search integration with DugDugGo.
+  - Web search integration with DuckDucko.
   - Multi-agent workflow combining financial data and web insights.
 - **How to Run**:
   1. Set up the environment using `requirements.txt`.
@@ -25,7 +25,7 @@ This repository contains code and documentation for three exciting projects I wo
 - **How to Run**:
   1. Install dependencies from `requirements.txt`.
   2. Configure database connection settings.
-  3. Run `multi_agent.py`.
+  3. Run `pdf_assistantt.py`.
 
 ### 3. Video Summarization Agent with Google Gemini
 - **Description**: A video summarization application that analyzes video content, answers contextual questions, and performs supplementary web searches.
@@ -37,7 +37,7 @@ This repository contains code and documentation for three exciting projects I wo
 - **How to Run**:
   1. Install dependencies from `requirements.txt`.
   2. Set up Google API key in `.env` file.
-  3. Run `app.py` using Streamlit: `streamlit run app.py`.
+  3. Run 'video_summarizer.py'.
 
 ## Prerequisites
 - Python >=3.8
